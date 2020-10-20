@@ -12,6 +12,10 @@ public class main {
         System.out.println("根据学号查询成绩（100001.0）："+h.SelectScore_xh(str,"100001.0"));//根据学号查询成绩等信息
         String[][] arrays = ws.Sort_bySum(str);
         System.out.println( arrays[0].length);
+
+
+
+
         System.out.println( str[0].length);
 //        System.out.println(arrays.length+"--"+arrays[0].length);
         //遍历新的数组
