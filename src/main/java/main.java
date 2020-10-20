@@ -17,6 +17,7 @@ public class main {
 
 
         System.out.println( str[0].length);
+
 //        System.out.println(arrays.length+"--"+arrays[0].length);
         //遍历新的数组
         for(int i=0;i<arrays.length;i++) {
