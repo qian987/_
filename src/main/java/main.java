@@ -20,7 +20,7 @@ public class main {
 
 //        System.out.println(arrays.length+"--"+arrays[0].length);
         //遍历新的数组
-        for(int i=0;i<arrays.length;i++) {
+        for(int i=arrays.length;i>=0;i--) {
 
             for(int j=0;j<arrays[i].length;j++) {
                 System.out.print(arrays[i][j]+"\t");
