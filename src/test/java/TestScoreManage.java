@@ -13,7 +13,7 @@ public class TestScoreManage {
                 {"100001","学生1","50","60","70"},
                 {"100002","学生2","60","66","7"},
                 {"100003","学生3","50","60","80"},
-                {"100004","学生4","50","40","70"},
+                {"100004","学生4","80","40","70"},
                 {"100005","学生5","50","30","70"}};
         ScoreManageInterface w=new ScoreManageInterfaceIMPL();
         double arrays = w.max_score(str, "语文成绩");
